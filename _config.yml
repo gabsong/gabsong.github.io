@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 locale                   : "en-US"
 title                    : "Gabriel Song Portfolio"
 title_separator          : "-"
-name                     : "Gabriel Song"
-description              : "Experimental. Jekyll / Minimal Mistakes theme on GitHub Pages."
+name                     : &name "Gabriel Song"
+description              : &description "Experimental. Jekyll / Minimal Mistakes theme on GitHub Pages."
 url                      : https://gabsong.github.io
 baseurl                  : /
 repository               : gabsong/gabsong.github.io
@@ -80,7 +80,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : &twitter "gabsong"
 facebook:
   username               :
   app_id                 :
@@ -92,6 +92,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/gabsong"
 
 # Analytics
 analytics:
@@ -103,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gabriel Song"
+  name             : *name
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "If you got here, you can ask me anything. Really."
   location         : "San Francisco, CA"
@@ -117,7 +118,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/gabsong"
+      url: &twitter_url "https://twitter.com/gabsong"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -126,14 +127,14 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/greatgabsg"
+      url: &instagram_url "https://instagram.com/greatgabsg"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: *twitter_url
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -148,7 +149,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: *instagram_url
 
 
 # Reading Files
@@ -179,8 +180,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -275,6 +274,13 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# Collections
+collections:
+  # collection_name:
+    # output: true
+    # permalink: /:collection/:path/
 
 
 # Defaults
