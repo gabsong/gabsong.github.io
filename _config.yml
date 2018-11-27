@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "Gabriel Song"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Product Manager"
+  bio              : "If you got here, you can ask me anything. Really."
   location         : "San Francisco, CA"
   email            :
   links:
@@ -117,7 +117,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/gabsong"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -126,7 +126,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/greatgabsg"
 
 # Site Footer
 footer:
