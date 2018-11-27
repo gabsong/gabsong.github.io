@@ -278,9 +278,9 @@ compress_html:
 
 # Collections
 collections:
-  # collection_name:
-    # output: true
-    # permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -296,3 +296,11 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
