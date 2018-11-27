@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.14.1"
-minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gabriel Song, Product Manager"
+title                    : "Gabriel Song Portfolio"
 title_separator          : "-"
 name                     : "Gabriel Song"
-description              : "This is my personal portfolio website. Built with Jekyll using the Minimal Mistakes theme, and deployed on GitHub Pages."
+description              : "Experimental. Jekyll / Minimal Mistakes theme on GitHub Pages."
 url                      : https://gabsong.github.io
 baseurl                  : /
 repository               : gabsong/gabsong.github.io
@@ -106,7 +106,7 @@ author:
   name             : "Gabriel Song"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Product Manager"
-  location         : "San Francisco, CA, USA"
+  location         : "San Francisco, CA"
   email            :
   links:
     - label: "Email"
