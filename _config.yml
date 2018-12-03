@@ -304,3 +304,5 @@ defaults:
       layout: single
       author_profile: false
       share: true
+
+github: [metadata]
