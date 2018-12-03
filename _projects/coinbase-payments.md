@@ -1,6 +1,5 @@
 ---
 title: "Feature Design"
-layout: single
 excerpt: "Ginger Gulp design system including logo mark, website design, and branding applications."
 header:
   image: /assets/images/unsplash-gallery-image-3.jpg
